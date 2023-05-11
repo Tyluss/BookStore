@@ -38,26 +38,26 @@ namespace BookStore.Controllers
           {
               return NotFound();
           }
-            var customer = await _context.Books.FindAsync(id);
+            var book = await _context.Books.FindAsync(id);
 
-            if (customer == null)
+            if (book == null)
             {
                 return NotFound();
             }
 
-            return ItemToDTO(customer);
+            return ItemToDTO(book);
         }
 
         // PUT: Books/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutBook(long id, BookDto customerDTO)
+        public async Task<IActionResult> PutBook(long id, BookDto bookDto)
         {
-            if (id != customerDTO.id)
+            if (id != bookDto.id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(customerDTO).State = EntityState.Modified;
+            _context.Entry(bookDto).State = EntityState.Modified;
 
             try
             {
@@ -110,14 +110,14 @@ namespace BookStore.Controllers
             {
                 return NotFound();
             }
-            var customer = await _context.Books.FindAsync(id);
+            var book = await _context.Books.FindAsync(id);
 
-            if (customer == null)
+            if (book == null)
             {
                 return NotFound();
             }
 
-            _context.Books.Remove(customer);
+            _context.Books.Remove(book);
             await _context.SaveChangesAsync();
 
             return NoContent();

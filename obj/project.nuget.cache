@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NsGf4EcyGtY4rQrt+8xZg0MxhAIObgvCGWd0Ov+lT6AFzIJyXzjvhEbv3/m9cIxkOx5te2uD38xUcwghtNLUyw==",
+  "dgSpecHash": "CgFpZy027CmBb8Bs0qIB26Nw6Me9wZ+MN8JVvwd3D/40uwTtxkUGA9vngENvm2cm7U6bxfwoR7ShEfF00l7MkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\OneDrive\\Desktop\\Semester project\\Semester-Project\\BookStore\\BookStore.csproj",
+  "projectFilePath": "C:\\Users\\chris\\OneDrive\\Desktop\\Bookstore project\\BookStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

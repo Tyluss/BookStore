@@ -11162,11 +11162,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chris\\OneDrive\\Desktop\\Semester project\\Semester-Project\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "C:\\Users\\chris\\OneDrive\\Desktop\\Bookstore project\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "C:\\Users\\chris\\OneDrive\\Desktop\\Semester project\\Semester-Project\\BookStore\\BookStore.csproj",
+      "projectPath": "C:\\Users\\chris\\OneDrive\\Desktop\\Bookstore project\\BookStore.csproj",
       "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chris\\OneDrive\\Desktop\\Semester project\\Semester-Project\\BookStore\\obj\\",
+      "outputPath": "C:\\Users\\chris\\OneDrive\\Desktop\\Bookstore project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
